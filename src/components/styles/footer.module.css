@@ -1,0 +1,7 @@
+@tailwind base;
+.btn {
+    @apply bg-black;
+}
+
+@tailwind components;
+@tailwind utilities;

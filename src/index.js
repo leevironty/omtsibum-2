@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './styles.css';
+import './tailwind.css';
 import Play from './components/play';
 import App from './components/app';
 import * as serviceWorker from './serviceWorker';
@@ -8,7 +9,7 @@ import { Route, BrowserRouter as Router } from 'react-router-dom';
 
 const routing = (
     <Router>
-        <Route exact path="/" component={App}/>
+        <Route exact path="/" component = {App}/>
         <Route path="/play" component = {Play}/>
     </Router>
 );

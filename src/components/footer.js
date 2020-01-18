@@ -1,9 +1,10 @@
 import React from 'react';
+import styles from './styles/footer.module.css';
 
 const Footer = () => {
     return (
         <footer>
-            <p>GitHub ja muut</p>
+            <p className="btn">GitHub ja muut</p>
         </footer>
     );
 };
